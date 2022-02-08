@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageSlider</title>
+    <link rel ="stylesheet" href="style.css"/>
+</head
+
+>
+<body>
+
+  <section>
+
+    <div class="bg-blue-300  border-2  w-1/2 h-full">
+
+    <div class=" flex justify-center items-center"> 
+    
+      
+<div class=" flex justify-center items-center w-1/2 h-1/2 ">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-12 " fill="none" viewBox="0 0 24 24" stroke="currentColor" onclick="changeLeftImageButton()" id="leftslider">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+  </svg>
+
+
+<ul class=" flex justify-center items-center mt-6 w-1/2 h-1/2" >    
+
+  <li>  <img id="images" style=" width: 200px; height: 200px; "></li> </ul> 
+
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-12 " viewBox="0 0 20 20" fill="currentColor" id="rightslider" onclick="changeRightImageButtons()">
+  <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+</svg>
+
+
+  </div>
+</div>
+
+
+<div>
+<ul class=" flex justify-center items-center" id="balls">
+
+ <li class="bali w-2 h-2 rounded-full " style="background-color: gray;"></li>
+
+<li class="bali w-2 h-2 rounded-full "style="background-color: gray;"></li>
+
+<li class="bali w-2 h-2 rounded-full " style="background-color: gray;"></li>
+
+<li class="bali w-2 h-2 rounded-full "  style="background-color: gray;"></li>
+
+
+</ul>  
+</div>
+
+
+
+</div>
+    </section>
+
+<script src="index.js"></script>
+ 
+  </body>
+  </html>
